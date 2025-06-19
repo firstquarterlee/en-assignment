@@ -1,0 +1,9 @@
+import React from 'react';
+
+const Footer = () => {
+  return (
+    <h1>Footer 화면</h1>
+  );
+};
+
+export default Footer;

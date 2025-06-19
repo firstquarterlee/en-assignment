@@ -1,10 +1,19 @@
 import './App.css'
+import Header from './components/Header'
+import Intro from './components/Intro'
+import Card from './components/Card'
+import Custom from './components/Custom'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
     <>
-    <h1>이엔미디어 과제 테스트</h1>
+      <Header />
+      <Intro />
+      <Card />
+      <Custom />
+      <Footer />
     </>
   )
 }
