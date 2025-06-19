@@ -1,0 +1,27 @@
+/* Swiper 네비게이션 버튼 화살표를 흰색으로 강제 지정 */
+.swiper-button-next, .swiper-button-prev {
+  color: #fff !important;
+}
+.swiper-button-next svg, .swiper-button-prev svg {
+  stroke: #fff !important;
+}
+
+/* 공통 섹션 컨테이너 */
+.section-container {
+  @apply max-w-7xl mx-auto px-4;
+}
+.section-padding {
+  @apply py-8 sm:py-10 md:py-14 lg:py-20;
+}
+.section-title {
+  @apply text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6 text-inherit;
+}
+.section-desc {
+  @apply text-base sm:text-lg md:text-xl mb-10 text-inherit;
+}
+.card-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8;
+}
+.card-item {
+  @apply bg-white rounded-sm shadow-lg overflow-hidden flex flex-col;
+}
